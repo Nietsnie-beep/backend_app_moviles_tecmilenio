@@ -27,6 +27,10 @@ SECRET_KEY = 'django-insecure-2m#&jnq-m1hw@uj%@$2m=gu4gjj4@-um-swzl+r!o1bg7=m0de
 DEBUG = True
 ALLOWED_HOSTS = ['*']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://dsitasks-nietsapps.5n7tjo.easypanel.host'
+]
+
 
 # Application definition
 
